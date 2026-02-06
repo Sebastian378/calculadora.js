@@ -38,8 +38,8 @@ botones.forEach(boton => {
 
      // Convertir operadores visuales a JS
     let operador = valor;
-    if (valor === "X") operador = "*";
-    if (valor === "÷") operador = "/";
+    if (valor === "X") operador = "X";
+    if (valor === "÷") operador = "÷";
     if (valor === ",") operador = ".";
 
     pantalla.value += operador;
